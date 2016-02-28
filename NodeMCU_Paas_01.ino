@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <DHT.h>
 
-#define DHTPIN 2     // what pin we're connected to
-#define DHTTYPE DHT11   // DHT 22  (AM2302)
+#define DHTPIN 2     // GPIO02(D4) NodeMCU v1.0
+#define DHTTYPE DHT11   // DHT 11
 #define DELAY 100
 
 const char *ssid = "RimadStudio_Wifi";
